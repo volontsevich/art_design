@@ -11,8 +11,6 @@ gem 'unicorn'
 gem 'semantic-ui-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use SCSS for stylesheets
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 
