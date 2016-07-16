@@ -1,0 +1,28 @@
+@import "semantic-ui";
+
+.landing {
+  min-height: 500px;
+  padding: 0em 0em;
+}
+
+.menu {
+  border: 0px !important;
+}
+
+.top_menu {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.main_content {
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .item {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+}

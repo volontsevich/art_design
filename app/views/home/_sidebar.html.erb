@@ -1,0 +1,13 @@
+<div class="ui sidebar top fixed menu large compact inverted container  labeled icon vertical thin">
+  <a class="toc item" href="/">
+    Start
+  </a>
+  <% @styles.each do |menu_item| %>
+      <a class="toc item" href=<%= "##{menu_item[:name]}" %>>
+        <%= menu_item[:name] %>
+      </a>
+  <% end %>
+  <a class="toc item" href="#end">
+    End
+  </a>
+</div>
