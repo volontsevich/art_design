@@ -3,7 +3,7 @@
     Start
   </a>
   <% @styles.each do |menu_item| %>
-      <a class="toc item" href=<%= "##{menu_item[:name]}" %>>
+      <a class="toc item" href=<%= "#{I18n.locale}/##{menu_item[:name]}" %>>
         <%= menu_item[:name] %>
       </a>
   <% end %>

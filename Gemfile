@@ -7,7 +7,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'puma'
 gem 'unicorn'
-
+gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 gem 'semantic-ui-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
