@@ -7,3 +7,4 @@
 .env
 .byebug_history
 .idea/*
+/public/assets
